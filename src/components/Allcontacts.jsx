@@ -28,6 +28,7 @@ export default function Allcontacts() {
   const handelSearch = (form) => {
     form.preventDefault();
     setSearchData(form.target.search.value.trim());
+    setpage(1)
   };
 
   useEffect(()=>{
